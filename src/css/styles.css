@@ -1,18 +1,20 @@
 /* seguindo codigo do git  */
-* body{
+* body {
     margin: 0;
     padding: 0;
     background-color: rgb(135, 100, 218);
 }
-main{
+
+main {
     display: flex;
-    width: 100%;    
+    width: 100%;
     justify-content: center;
     align-items: center;
-   margin-top: 24px;
-           
+    margin-top: 2.4%;
+
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     background-color: cornflowerblue;
@@ -21,11 +23,12 @@ main{
     align-items: center;
     justify-content: space-evenly;
     border-radius: 20px;
-    margin-top: 24px;
+    margin-top: 2.4%;
     box-shadow: 0 0 10px black;
-    max-width: 95%;   
+    max-width: 95%;
 }
-.title{
+
+.title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,9 +36,10 @@ main{
     height: 50px;
     font: bold 1.5rem serif;
     border-bottom: solid 5px black;
-    margin-top: 24px;
+    margin-top: 2.4%;
 }
-.input{
+
+.input {
     display: flex;
     width: 300px;
     height: 50px;
@@ -43,7 +47,8 @@ main{
     justify-content: space-between;
     align-items: center;
 }
-.input input{
+
+.input input {
     width: 60%;
     height: 40px;
     border-radius: 5px;
@@ -51,29 +56,31 @@ main{
     max-width: 90%;
     background-color: lightsteelblue;
     text-shadow: 0 0 2px #000;
-    outline: 0;    
+    outline: 0;
     font: bold 1.5rem serif;
-    text-align: center;   
+    text-align: center;
 }
-.input label{
+
+.input label {
     font: bold 1.2rem serif;
     max-width: 90%;
 }
-button{
+
+button {
     width: 300px;
     height: 40px;
     font: bold 1.4rem serif;
     background-color: lightsteelblue;
     outline: none;
-    margin-top: 24px;
+    margin-top: 2.4%;
     border-radius: 5px;
     cursor: pointer;
     color: black;
     max-width: 90%;
 }
-.result{
+
+.result {
     display: flex;
-    margin-top: 24px;
     align-items: center;
     width: 300px;
     height: 150px;
@@ -83,18 +90,20 @@ button{
     box-shadow: 0px 0px 10px black;
     color: maroon;
     padding: 20px;
+    margin-top: 2.4%;
     box-sizing: border-box;
     user-select: none;
     max-width: 90%;
 }
-footer{
+
+footer {
     background-color: rgb(113, 79, 225);
     text-align: center;
     justify-content: center;
-    align-items: center;
-    padding: 20px;
+    align-items: center; 
+    font-size: 14px;    
     color: #fff;
     max-width: 100%;
+    margin-top: 2.4%;
+    padding: 5px;
 }
-
-
